@@ -8,6 +8,8 @@ const makeNavLinkClass = ({ isActive }) => {
 
 export default function Navigation() {
   return (
+    <header className={css.header}>
+    
     <nav className={css.nav}>
       <NavLink to="/" className={makeNavLinkClass}>
         Home
@@ -15,6 +17,8 @@ export default function Navigation() {
       <NavLink to="/movies" className={makeNavLinkClass}>
         Movies
       </NavLink>
-    </nav>
+      </nav>
+      
+      </header>
   );
 }
