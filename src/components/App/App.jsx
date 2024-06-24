@@ -1,12 +1,13 @@
-import { Route, Routes } from 'react-router-dom';
+/*import { Route, Routes } from "react-router-dom";*/
 
+import Navigation from "../Navigation/Navigation";
 
 export default function App() {
   return (
-  <div>
-    <Routes>
-    <Route path='/' element={<div>Home page</div>} />
-    </Routes>
-  </div>
-  )
+    <div>
+      <Navigation />
+
+    
+    </div>
+  );
 }
