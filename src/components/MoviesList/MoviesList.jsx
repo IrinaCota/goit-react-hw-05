@@ -11,7 +11,7 @@ export default function MoviesList({ movies }) {
     <ul className={css.list}>
         {movies.map(movie => {
           return (
-            <li key={movie.id} className={css.boxItem}>
+            <li key={movie.id} className={css.movieCard}>
               <Link to={`/movies/${movie.id}`} state={location}>
                 <div className={css.boxLink}>
                   <div className={css.poster}>

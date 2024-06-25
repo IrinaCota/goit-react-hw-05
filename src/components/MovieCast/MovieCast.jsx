@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { getMovieCredits } from '../../api/api';
+
 import css from './MovieCast.module.css';
 
-import { getMovieCredits } from '../../api/api';
 import Loader from '../Loader/Loader';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 
