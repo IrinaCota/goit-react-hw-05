@@ -10,7 +10,6 @@ margin: 10px auto;
 }
 
 .movieCard {
-
 background-color: #a7dbf5;
 display: flex;
 flex-direction: column;
@@ -35,14 +34,6 @@ justify-content: center;
 
 .poster {
     max-height: 80%;
-}
-
-
-.img {
-
-}
-
-.noImagePlaceholder {
 }
 
 .title{

@@ -19,10 +19,9 @@ export default function MoviesList({ movies }) {
                     <img
                       src={`https://image.tmdb.org/t/p/w300/${movie.poster_path}`}
                       alt={movie.title}
-                      className={css.img}
                     />
                   ) : (
-                    <div className={css.noImagePlaceholder}>No Image</div>
+                    <div>No Image</div>
                   )}
                   </div>
 
