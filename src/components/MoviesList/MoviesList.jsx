@@ -17,7 +17,7 @@ export default function MoviesList({ movies }) {
                   <div className={css.poster}>
                         {movie.poster_path ? (
                     <img
-                      src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
+                      src={`https://image.tmdb.org/t/p/w300/${movie.poster_path}`}
                       alt={movie.title}
                       className={css.img}
                     />

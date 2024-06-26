@@ -70,9 +70,9 @@ export default function MovieDetailsPage() {
             ))}
           </ul>
         </div>
-      </div>
+         </div>
       <div className={css.additionalInfo}>
-        <h4>Additional information</h4>
+        <h3>Additional information</h3>
         <ul className={css.additionalInfoList}>
           <li>
             <NavLink to="cast" className={css.additionalInfoLink}>
@@ -89,6 +89,8 @@ export default function MovieDetailsPage() {
           <Outlet />
         </Suspense>
       </div>
-    </div>
+      </div>
+      
+     
   );
 }

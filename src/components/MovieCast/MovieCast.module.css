@@ -1,16 +1,17 @@
 .creditsList {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding-left: 0;
 }
 
 .creditsListItem {
-    width: calc((100% - 60px) / 4);
-    height: 360px;
-    display: flex;
-    padding: 5px;
-    flex-direction: column;
     height: 100%;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
     border-radius: 5px;
     border: 1px solid #808080;
     overflow: hidden;
